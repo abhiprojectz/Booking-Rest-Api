@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "0180a4bd-541c-45ce-90bb-d82753c2f2b8",
+		"name": "NurtureLab",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Nurture lab\",\r\n    \"email\": \"nurture@gmail.com\",\r\n    \"password\": \"12347787655\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"nurture@gmail.com\",\r\n    \"password\": \"12347787655\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/user/login",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/user/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"nurture@gmail.com\",\r\n    \"password\": \"12347787655\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/user/login",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/user/6051c889912a0313b89d37e8/advisor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/user/6051c889912a0313b89d37e8/advisor",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"6051c889912a0313b89d37e8",
+						"advisor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/user/6051c889912a0313b89d37e8/advisor/60504d908d55701950e15c33",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookingTime\": \"2021-03-17\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/user/6051c889912a0313b89d37e8/advisor/60504d908d55701950e15c33",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"6051c889912a0313b89d37e8",
+						"advisor",
+						"60504d908d55701950e15c33"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/user/6051c889912a0313b89d37e8/advisor/booking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/user/6051c889912a0313b89d37e8/advisor/booking",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"user",
+						"6051c889912a0313b89d37e8",
+						"advisor",
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/admin/advisor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"advisorName\": \"Kunal Bhatia\",\r\n    \"photoUrl\": \"https://example.com/pic.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/admin/advisor",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"admin",
+						"advisor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
